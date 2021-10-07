@@ -37,7 +37,7 @@ class kampus extends CI_Controller{
         $this->load->view('edit_data',$data);
     }
 
-    function update4(){
+    function update(){
         $nim = $this->input->post('nim');
         $nama = $this->input->post('nama');
         $alamat = $this->input->post('alamat');
