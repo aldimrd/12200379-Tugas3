@@ -32,6 +32,10 @@
         <td><input type="text" name="pekerjaan" value=<?php echo $u->pekerjaan ?>"></td>
     </tr>
     <tr> 
+        <td>Upload Foto</td>
+        <td><input type="file" name="foto"></td>
+    </tr>
+    <tr>
         <td></td>
         <td><input type="text" name="submit" value=<?php echo $u->submit ?>"></td>
     </tr>
